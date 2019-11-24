@@ -1,0 +1,5 @@
+conversion/
+/.spyproject
+/.ipynb_checkpoints
+/.idea
+*.pyc
