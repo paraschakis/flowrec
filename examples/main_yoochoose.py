@@ -1,3 +1,5 @@
+import sys
+sys.path.append("..")
 from skmultiflow.data import FileStream
 from evaluation.evaluate_prequential import EvaluatePrequential
 from recommendation.random import RandomClassifier
