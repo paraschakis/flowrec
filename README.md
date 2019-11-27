@@ -13,7 +13,7 @@
  3. Clone [FlowRec repository](https://github.com/flowrec/flowrec.git).
  
 ## Example
-```
+```Python
 from skmultiflow.data import FileStream
 from evaluation.evaluate_prequential import EvaluatePrequential
 from recommendation.popular import PopularClassifier
