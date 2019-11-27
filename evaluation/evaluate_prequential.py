@@ -348,7 +348,7 @@ class EvaluatePrequential(StreamEvaluator):
         print('avg. session size: {0:.2f}'.format(np.mean(list(session_counter.values()))))
         # evaluated_sessions_sizes = [c for c in session_counter.values() if c != 1]
         # print('average session size: {0:.2f}'.format(np.mean(evaluated_sessions_sizes)))
-
+        
         if self.restart_stream:
             self.stream.restart()
 
