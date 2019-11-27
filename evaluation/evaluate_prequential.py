@@ -79,33 +79,11 @@ class EvaluatePrequential(StreamEvaluator):
     metrics: list, optional (Default: ['recall', 'mrr'])
         | The list of metrics to track during the evaluation. Also defines the metrics that will be displayed in plots
           and/or logged into the output file. Valid options are
-        | *Classification*
-        | 'accuracy'
-        | 'kappa'
-        | 'kappa_t'
-        | 'kappa_m'
-        | 'true_vs_predicted'
         | 'precision'
         | 'recall'
         | 'mrr'
-        | 'f1'
-        | 'gmean'
-        | *Multi-target Classification*
-        | 'hamming_score'
-        | 'hamming_loss'
-        | 'exact_match'
-        | 'j_index'
-        | *Regression*
-        | 'mean_square_error'
-        | 'mean_absolute_error'
-        | 'true_vs_predicted'
-        | *Multi-target Regression*
-        | 'average_mean_squared_error'
-        | 'average_mean_absolute_error'
-        | 'average_root_mean_square_error'
-        | *Experimental*
+        | 'F1'
         | 'running_time'
-        | 'model_size'
 
     output_file: string, optional (Default: None)
         File name to save the summary of the evaluation.
@@ -364,11 +342,12 @@ class EvaluatePrequential(StreamEvaluator):
         except AttributeError:
             pass
 
-        print('number of evaluations: {}'.format(evaluation_count))
         print('training time window: {}'.format(self.n_keep))
         print('number of sessions: {}'.format(len(session_counter)))
-        valid_sessions_lengths = [c for c in session_counter.values() if c != 1]
-        print('average session length: {0:.2f}'.format(np.mean(valid_sessions_lengths)))
+        print('number of evaluations: {}'.format(evaluation_count))
+        print('avg. session size: {0:.2f}'.format(np.mean(list(session_counter.values()))))
+        # evaluated_sessions_sizes = [c for c in session_counter.values() if c != 1]
+        # print('average session size: {0:.2f}'.format(np.mean(evaluated_sessions_sizes)))
 
         if self.restart_stream:
             self.stream.restart()
