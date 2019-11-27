@@ -1,13 +1,11 @@
-# This toy example shows how to run a stream learner that recommends
-# the most popular items of the sliding window
-
+# Example 1: popularity recommender
 from skmultiflow.data import FileStream
 from evaluation.evaluate_prequential import EvaluatePrequential
 from recommendation.random import RandomClassifier
 from recommendation.popular import PopularClassifier
 
 # Create stream
-stream = FileStream("../data/yoochoose_clicks_1M100K.csv")
+stream = FileStream("your-dataset.csv")
 stream.prepare_for_use()
 
 # Instantiate recommender
