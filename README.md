@@ -10,7 +10,7 @@
 ## Installation
  1. Install [Anaconda distribution](https://www.anaconda.com/distribution/) with Python >= 3.5.
  2. Install [Scikit-Multiflow](https://scikit-multiflow.github.io/scikit-multiflow/installation.html).
- 3. Clone [FlowRec repository](https://github.com/flowrec/flowrec.git).
+ 3. Clone [FlowRec repository](https://github.com/paraschakis/flowrec.git).
  
 ## Example
 ```Python
