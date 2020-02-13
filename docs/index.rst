@@ -16,7 +16,7 @@ Welcome to FlowRec's documentation!
 
 
 
-Indices and tables
+Indices and tables (test)
 ==================
 
 * :ref:`genindex`
