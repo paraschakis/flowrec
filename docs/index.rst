@@ -1,24 +1,21 @@
-.. FlowRec documentation master file, created by
-   sphinx-quickstart on Wed Feb 12 13:49:45 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to FlowRec's documentation!
+===================================
 
 .. image:: https://raw.githubusercontent.com/flowrec/flowrec/master/FlowRec.png
    :width: 738
 
+|
+FlowRec extends the functionality of the streaming framework `Scikit-Multiflow's  <https://scikit-multiflow.github.io/>`_ to enable prototyping and benchmarking stream-based recommender systems.
 
+This documentation only describes the unique features of FlowRec that are not part of the host library. Please refer to `Scikit-Multiflow's documentation <https://scikit-multiflow.github.io/scikit-multiflow/>`_ to familiarize yourself with the general functionality of the framework.
+
+*Note*: the documentation is currently being updated. Stay tuned!
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables (test)
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   :maxdepth: 1
+   :hidden:
+   :caption: Prototyping
+   
+   FlowRec parameters <parameters>
+   Shared data <shared_data>
+   Examples <examples>

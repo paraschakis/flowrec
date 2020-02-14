@@ -20,7 +20,7 @@ import datetime
 # -- Project information -----------------------------------------------------
 
 project = 'FlowRec'
-copyright = 'Copyright@str(datetime.datetime.now().year) Dimitris Paraschakis'
+copyright = str(datetime.datetime.now().year) + ' Dimitris Paraschakis'
 author = 'Dimitris Paraschakis'
 
 # The full version, including alpha/beta/rc tags
