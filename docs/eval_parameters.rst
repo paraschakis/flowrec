@@ -2,7 +2,7 @@
 FlowRec parameters
 ==================
 
-This is a list of FlowRec-specific parameters for prequential evaluation in addition to those originally provided by Scikit-Multiflow (`<https://scikit-multiflow.github.io/scikit-multiflow/_autosummary/skmultiflow.evaluation.EvaluatePrequential.html#skmultiflow.evaluation.EvaluatePrequential>`_).
+This is a list of FlowRec-specific parameters for prequential evaluation in addition to those originally provided by Scikit-Multiflow (see `here <https://scikit-multiflow.github.io/scikit-multiflow/_autosummary/skmultiflow.evaluation.EvaluatePrequential.html#skmultiflow.evaluation.EvaluatePrequential>`_).
 
 :session_column_index (required):
     The index of a data column containing session identifiers.
