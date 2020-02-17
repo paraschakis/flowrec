@@ -16,6 +16,6 @@ This documentation only describes the unique features of FlowRec that are not pa
    :hidden:
    :caption: Prototyping
    
-   FlowRec parameters <parameters>
+   Evaluation parameters <eval_parameters>
    Shared data <shared_data>
    Examples <examples>
