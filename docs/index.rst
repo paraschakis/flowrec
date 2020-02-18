@@ -5,7 +5,7 @@ Welcome to FlowRec's documentation!
    :width: 738
 
 |
-FlowRec extends the functionality of the streaming framework `Scikit-Multiflow's  <https://scikit-multiflow.github.io/>`_ to enable prototyping and benchmarking stream-based recommender systems.
+FlowRec extends the functionality of the streaming framework `Scikit-Multiflow's  <https://scikit-multiflow.github.io/>`_ to enable prototyping and benchmarking of stream-based recommender systems.
 
 This documentation only describes the unique features of FlowRec that are not part of the host library. Please refer to `Scikit-Multiflow's documentation <https://scikit-multiflow.github.io/scikit-multiflow/>`_ to familiarize yourself with the general functionality of the framework.
 
