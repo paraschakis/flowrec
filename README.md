@@ -1,4 +1,4 @@
-<img src="https://github.com/flowrec/flowrec/blob/master/FlowRec.png">
+<img src="https://github.com/paraschakis/flowrec/blob/master/FlowRec.png">
 
 <!---# FlowRec
 **Prototyping Session-based Recommender Systems in Streaming Mode.**-->

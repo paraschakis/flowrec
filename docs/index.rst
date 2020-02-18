@@ -1,7 +1,7 @@
 Welcome to FlowRec's documentation!
 ===================================
 
-.. image:: https://raw.githubusercontent.com/flowrec/flowrec/master/FlowRec.png
+.. image:: https://raw.githubusercontent.com/paraschakis/flowrec/master/FlowRec.png
    :width: 738
 
 |
