@@ -39,4 +39,6 @@ evaluator.evaluate(stream=stream, model=[popular], model_names=['POP'])
 
 ```
  
-More examples will be provided in FlowRec's [documentation](https://flowrec.readthedocs.io) (currently being updated).
+More examples will be provided in FlowRec's [documentation](https://flowrec.readthedocs.io)
+
+Update: please note that FlowRec hasn't been actively maintained since its publication.
